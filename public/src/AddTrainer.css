@@ -1,0 +1,21 @@
+.addtrainer__image{
+  width: 3cm;
+  height: 3cm;
+  align-items: center;
+   border-radius: 50%;
+   margin-left: 547px;
+}
+.form-group {
+  width: 15cm;
+}
+h1 {
+  text-align: center;
+
+  background-color: rgb(145, 167, 179);
+}
+.form-check {
+  margin-left: 15px;
+}
+.btn btn-success {
+  margin-left: 50px;
+}

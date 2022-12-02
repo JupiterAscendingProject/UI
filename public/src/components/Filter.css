@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#filter {
+    height: 83vh;
+    width: 17rem;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* font-size: 2rem; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 3rem;
+}
+
+#trainerMode {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.filterOption {
+    width: 14rem;
+    height: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+#modeLabel {
+    font-size: medium;
+    border: 1px solid black;
+    width: 20rem;
+    height: 1.8rem;
+    margin-left: 1.4rem;
+    margin-right: 1rem;
+    padding-top: 4px;
+}
+
+
+
+input.toggle-round {
+    display: none;
+}
+
+input.toggle-round+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+input.toggle-round+label {
+    padding: 2px;
+    width: 50px;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+input.toggle-round+label:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0 2px 3px #888;
+    transition: margin 0.5s;
+}
+
+input.toggle-round:checked+label {
+    background-color: lightblue;
+}
+
+input.toggle-round:checked+label:after {
+    margin-left: 20px;
+}
+
+.my-button {
+    width: 150px;
+    height: 40px;
+    background-color: #14a15f;
+    color: rgb(6, 12, 17);
+    margin-top: 30px;
+    margin-left: 80px;
+}

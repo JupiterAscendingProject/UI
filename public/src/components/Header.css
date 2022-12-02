@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logoImage {
+    height: 6rem;
+    width: 9rem;
+    padding-left: 3rem;
+}
+
+#imageProfile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem
+}
+
+#image {
+    padding-left: 2rem;
+    padding-right: 0rem;
+    text-align: center;
+    padding-top: 1.8rem;
+}
+
+#profile_logo {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+}
+
+#profile {
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-top: 1.8rem;
+    border: 1px solid black;
+    height: 3rem;
+    width: 80%;
+    padding: 0.55rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#adminName {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    margin-left: 1.2rem;
+}
+
+#options {
+    margin-right: 1rem;
+    width: 2rem;
+    border: none;
+    outline: none;
+    height: 2rem;
+    font-size: medium;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.option {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid black;
+}
+
+.add__trainer__button {
+    width: 150px;
+    height: 40px;
+    background-color: #14a15f;
+    color: rgb(6, 12, 17);
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.add__newmeet__btn {
+    width: 150px;
+    height: 40px;
+    background-color: #14a15f;
+    color: rgb(6, 12, 17);
+    margin-top: 30px;
+    margin-left: 20px;
+}
